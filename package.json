@@ -1,0 +1,24 @@
+{
+  "name": "@raneio/scoped-style",
+  "version": "1.0.0",
+  "description": "Scope css styles",
+  "main": "scoped-style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raneio/scoped-style.git"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "html"
+  ],
+  "author": "Rane Ahonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raneio/scoped-style/issues"
+  },
+  "homepage": "https://github.com/raneio/scoped-style#readme"
+}
