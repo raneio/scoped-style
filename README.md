@@ -3,7 +3,7 @@
 ### Get started
 
 ```html
- <script type="module" src="./scoped-style.js"></script>
+ <script type="module" src="https://cdn.skypack.dev/@raneio/scoped-style?min"></script>
 ```
 
 ```html
