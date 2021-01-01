@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./scoped-style.js"></script>
+    <title>Scoped style demo</title>
+  </head>
+  <body>
+    <div class="test">
+      <p>This should be red</p>
+      <p class="info">This info should be blue</p>
+    </div>
+
+    <div>
+      <p>This should be black</p>
+      <p class="info">This info should be black</p>
+    </div>
+
+    <scoped-style scope=".test">
+      <style media="not all">
+        :root {
+          color: red;
+        }
+
+        .info {
+          color: cornflowerblue;
+        }
+      </style>
+    </scoped-style>
+  </body>
+</html>
