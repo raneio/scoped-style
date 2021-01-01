@@ -16,9 +16,7 @@
   <p>This should be black</p>
   <p class="info">This info should be black</p>
 </div>
-```
 
-```html
 <scoped-style scope=".test">
   <style media="not all">
     :root {
