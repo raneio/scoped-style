@@ -29,6 +29,7 @@
   </style>
 </scoped-style>
 ``` 
+![Screenshot](https://raw.githubusercontent.com/raneio/scoped-style/main/screenshot.png)
 
 ## License
 
